@@ -1,0 +1,221 @@
+/******************************
+ICOMOON ICONS
+******************************/
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?esxyt3");
+  src: url("fonts/icomoon.eot?esxyt3#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?esxyt3") format("truetype"),
+    url("fonts/icomoon.woff?esxyt3") format("woff"),
+    url("fonts/icomoon.svg?esxyt3#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icomoon" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+  content: "\e905";
+  color: rgb(165, 80, 54);
+  margin: 0 0.5em;
+}
+
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+
+/******************************
+INDEX/HOME PAGE STYLES
+******************************/
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.navbar a:hover,
+.nav-item a:hover {
+  color: rgb(0, 128, 90) !important;
+}
+
+.navbar-brand span {
+  color: rgb(165, 80, 54);
+  padding-right: 0.75em;
+  font-size: 1.5em;
+}
+
+.homepage-jumbotron {
+  background-image: url("leaves-dark.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  padding-top: 3em;
+}
+
+.btn-primary {
+  background-color: rgb(0, 128, 90);
+  border-color: rgb(0, 128, 90);
+  text-transform: uppercase;
+  font-size: 1em;
+  box-shadow: 2px 2px 2px 1px (0, 128, 90);
+}
+
+.btn-primary:hover {
+  background-color: rgba(85, 145, 127, 0);
+  border-color: rgba(85, 145, 127, 0.959);
+}
+
+.btn span {
+  margin-left: 0.5em;
+}
+
+.index-blockquote {
+  background-color: rgb(165, 80, 54);
+  padding: 2em;
+}
+
+.blockquote .blockquote-footer {
+  color: white;
+}
+
+.index-deck-title {
+  text-align: center;
+  padding-top: 4em;
+}
+
+.homepage-card img .card-deck-btn {
+  margin: 0 auto;
+}
+
+.homepage-card img {
+  padding-top: 1em;
+  max-width: 200px;
+}
+
+.card-deck-btn {
+  padding-bottom: 2em;
+}
+
+.card-deck {
+  margin: 0 1em;
+}
+
+.card-deck-btn a:hover {
+  color: rgb(0, 128, 90);
+}
+
+.second-row {
+  margin-top: 2em;
+}
+
+/******************************
+INVENTORIES PAGE STYLES
+******************************/
+.jumbotron-inventories {
+  background-image: url("greenery.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.card {
+  margin: 2em auto;
+  width: 60%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 128, 90, 0.2);
+}
+
+.button-container {
+  width: 100%;
+  margin: 1em 0;
+}
+
+.btn-outline-secondary {
+  background-color: rgb(0, 128, 90);
+  border-color: rgb(0, 128, 90);
+  text-transform: uppercase;
+  font-size: 1em;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-outline-secondary:hover {
+  background-color: white;
+}
+
+.btn-outline-secondary a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-outline-secondary a:hover,
+.btn-outline-secondary a:active,
+.btn-outline-secondary a:link {
+  color: rgb(0, 128, 90);
+}
+
+.list-group-item {
+  background-color: none;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.card-body img {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.card-text {
+  line-height: 2.5em;
+  padding: 0 1em;
+}
+
+.text-muted h1 {
+  font-size: 1em;
+}
+
+.text-muted p,
+.text-muted h1,
+.card-link {
+  margin: 1em;
+}
+
+.card-link {
+  margin-top: 0;
+}
+
+.card-footer a {
+  color: rgb(0, 128, 90);
+  font-weight: bold;
+}
+
+/******************************
+FOOTER STYLES
+******************************/
+.footer {
+  background-color: rgb(0, 128, 90);
+  width: 100%;
+  height: 3em;
+  margin-top: 3.75em;
+}
