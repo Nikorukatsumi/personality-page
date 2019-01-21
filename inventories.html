@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<head>
+  <html lang="eng">
+  <!-- BOOTSTRAP Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- END BOOTSTRAP Required meta tags -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>The Personality Page</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar">
+    <div>
+      <span class="icon-pencil"></span>
+    </div>
+    <a href="index.html" class="navbar-brand">The Personality Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Inventories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#card-bigfive">Big Five</a>
+            <a class="dropdown-item" href="#card-mbti">MBTI</a>
+            <a class="dropdown-item" href="#card-disc">DISC</a>
+            <a class="dropdown-item" href="#card-enneagram">Enneagram</a>
+            <a class="dropdown-item" href="#card-strengthsfinder">Strengths Finder</a>
+            <a class="dropdown-item" href="#card-4temperaments">4 Temperaments</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- END NAVBAR -->
+
+  <!-- JUMBOTRON -->
+  <div class="jumbotron jumbotron-fluid jumbotron-inventories">
+    <div class="container">
+      <h1 class="display-4">Inventories</h1>
+    </div>
+  </div>
+  <!-- END JUMBOTRON -->
+
+  <!-- CARDS -->
+  <div class="card card-inventories" id="card-bigfive">
+    <div class="card-body">
+      <h5 class="card-title">Big Five</h5>
+      <p class="card-text">
+        <strong>Background:</strong>
+        <br>A five-factor model of personality was first conceptualized in the 30s as consisting of elements: intellect, character,
+        temperment, disposition, and temper. Since then, it has been revisited and reformed many times over into the model
+        it has become today; these traits being:
+        <em>openness, agreableness, conscientiousness, negative emotionality, and extraversion.</em>
+      </p>
+      <div class="card-body-img">
+        <img src="img/5factormodel.jpg">
+        <small class="muted">Source: http://laurenteffel.com/19-inspirational-big-5-personality-traits-chart/personality-traits-noba-intended-for-19-inspirational-big-5-personality-traits-chart/</small>
+      </div>
+      <p class="card-text">
+        <strong>Purpose:</strong>
+        <br>This test is designed to help individuals understand where they fall in the spectrum of these traits. Rather than
+        dictate whether someone is open or not, agreable or not, this tool was meant to help define to what degree a person
+        has these traits - as all people share these in common.
+      </p>
+      <div class="button-container mx-auto">
+        <button type="button" class="btn btn-outline-secondary">
+          <a href="https://projects.fivethirtyeight.com/personality-quiz/">Take the test</a>
+        </button>
+      </div>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">
+        <p>Created by
+          <a href="http://www.colby.edu/psych/personality-lab/">Chris Soto</a>
+        </p>
+        <p>Take the long version of this test
+          <a href="http://www.personalitylab.org/tests/bfi2_self_pol.htm">here.</a>
+        </p>
+        <p>Take
+          <a href="">other tests </a>created by Soto.</p>
+      </small>
+    </div>
+  </div>
+
+  <div class="card card-inventories" id="card-mbti">
+    <div class="card-body">
+      <h5 class="card-title">MBTI</h5>
+      <p class="card-text">
+        <strong>Background:</strong>
+        <br>The Myers Briggs Personality Type Indicator measures personality using 4 factors. These include:
+        <em>Extroverted(E) or Introverted(I), Sensing(S) or Intuiting(N), Feeling(F) or Thinking(T), and Judging(J) or Perceiving(P).</em>
+        In total, there are 16 combinations of these traits (e.g., ESFJ or INTP), conceptualizing 16 unique personalities.</p>
+      <div class="card-body-img">
+        <img src="img/MyersBriggsTypes.png">
+      </div>
+      <p class="card-text">
+        <strong>Purpose:</strong>
+        <br>This test is commonly used in college settings focused around career placement, as well as the workplace to encourage
+        empathy and teamwork. And, although it has been criticized by researchers as a tool not to be taken too seriously,
+        many find the MBTI to be fun and informative.
+      </p>
+      <div class="button-container mx-auto">
+        <button type="button" class="btn btn-outline-secondary">
+          <a href="https://www.16personalities.com/free-personality-test">Take the test</a>
+        </button>
+      </div>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">
+        <p>Created by
+          <a href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/">Isabel Briggs Myers and Katharine Briggs</a>
+        </p>
+      </small>
+    </div>
+  </div>
+
+  <div class="card card-inventories" id="card-disc">
+    <div class="card-body">
+      <h5 class="card-title">DISC</h5>
+      <p class="card-text">
+        <strong>Background:</strong>
+        <br>The DISC assessment was created from the works of William Marston who studied human emotion and behavior. He found
+        that emotions impacted behavior significantly and variably across the lifespan. In the 40s, William Clarke created
+        an assessment tool for employers, noting that his measures of personality were similar to Marston's early work. Since
+        then, the DISC has undergone many revisions and continues to be useful to employers and individuals today.</p>
+      <p class="card-text">
+        <strong>Purpose:</strong>
+        <br>The DISC test posits that personality and behavior is influenced by an individual's perception of the favorability
+        of their environment, as well as their perception of control/lack of control.It relies of four factors: dominance(D),
+        influence(I), steadiness(S), and conscientiousness(C).
+      </p>
+      <div class="card-body-img">
+        <img src="img/disc.jpg">
+        <small class="muted">Source: https://united-partners.com/how-disc-personality-assessment-can-make-our-life-at-work-better/</small>
+      </div>
+      <div class="button-container mx-auto">
+        <button type="button" class="btn btn-outline-secondary">
+          <a href="https://www.123test.com/disc-personality-test/">Take the test</a>
+        </button>
+      </div>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">
+        <p>Created by
+          <a href="https://www.discprofile.com/what-is-disc/history-of-disc/">Walter Clarke</a>
+        </p>
+      </small>
+    </div>
+  </div>
+
+  <div class="card card-inventories" id="card-enneagram">
+    <div class="card-body">
+      <h5 class="card-title">Enneagram</h5>
+      <p class="card-text">
+        <strong>Background:</strong>
+        <br>The Enneagram was formulated by Oscar Ichazo, a Bolivian philosopher. He championed the enneagram as part of an earlier
+        work called Protoanalysis. In the Enneagram, an emphasis is placed on the ego and it's impact on thoughts and behaviors.
+        By identifying a type, one can better identify their ego fixations, and seek to remedy them.
+        <br>
+      </p>
+      <p class="card-text">
+        <strong>Purpose:</strong>
+        <br>The Enneagram comprises nine principle personalities in which one will be most relevant to the individual. From each
+        number, two arrows point toward one number, representing and individuals personality when under stress, and another
+        number, representing behavior when doing well. Each number will also score a subtype, which is called a wing.
+      </p>
+      <div class="card-body-img">
+        <img src="img/enneagramtypes.jpg">
+        <small class="muted">Source: http://infographicfacts.com/9-body-types/the-9-body-types/</small>
+      </div>
+      <div class="button-container mx-auto">
+        <button type="button" class="btn btn-outline-secondary">
+          <a href="https://www.eclecticenergies.com/enneagram/test">Take the test</a>
+        </button>
+      </div>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">
+        <p>Created by
+          <a href="https://www.enneagraminstitute.com/the-traditional-enneagram/">Oscar Ichazo</a>
+        </p>
+      </small>
+    </div>
+  </div>
+
+  <div class="card card-inventories" id="card-strengthsfinder">
+    <div class="card-body">
+      <h5 class="card-title">Clifton Strengths</h5>
+      <p class="card-text"></p>
+      <p class="card-text">
+      </p>
+      <div class="button-container mx-auto">
+        <button type="button" class="btn btn-outline-secondary">
+          <a href="">Take the test</a>
+        </button>
+      </div>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">
+        <p>Created by
+          <a href=""></a>
+        </p>
+      </small>
+    </div>
+  </div>
+
+  <div class="card card-inventories" id="4temperaments">
+    <div class="card-body">
+      <h5 class="card-title">4 Temperaments</h5>
+      <p class="card-text"></p>
+      <p class="card-text">
+      </p>
+      <div class="button-container mx-auto">
+        <button type="button" class="btn btn-outline-secondary">
+          <a href="">Take the test</a>
+        </button>
+      </div>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">
+        <p>Created by
+          <a href=""></a>
+        </p>
+      </small>
+    </div>
+  </div>
+  <!-- END CARDS -->
+
+  <!-- FOOTER -->
+  <div class="footer"></div>
+  <!-- END FOOTER -->
+
+  <!-- BOOTSTRAP JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <!-- END BOOTSTRAP JS -->
+
+</body>
