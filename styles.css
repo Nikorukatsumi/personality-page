@@ -55,7 +55,7 @@ INDEX/HOME PAGE STYLES
 }
 
 .homepage-jumbotron {
-  background-image: url("leaves-dark.jpg");
+  background-image: url("img/leaves-dark.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@ INDEX/HOME PAGE STYLES
 INVENTORIES PAGE STYLES
 ******************************/
 .jumbotron-inventories {
-  background-image: url("flowers-dark.jpg");
+  background-image: url("img/flowers-dark.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
